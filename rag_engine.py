@@ -57,7 +57,7 @@ def load_base(pdf_path="collage_docs"):
       full_text = load_pdf(pdf)
       chunks.extend(create_chunks(full_text))
       index,embed_model = build_vectors(chunks)
-    return index, embed_model, chunks  # Returns all required RAG components.
+      return index, embed_model, chunks  # Returns all required RAG components.
 
 
 # 5. RETRIEVE CONTENT
