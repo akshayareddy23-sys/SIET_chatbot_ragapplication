@@ -4,4 +4,4 @@ faiss-cpu
 groq
 numpy
 pypdf
-path
+pathlib
